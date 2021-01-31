@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.example.finalexam.LoginActivity
 import com.example.finalexam.R
+import com.example.finalexam.SingUpActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class UserFragment: Fragment(R.layout.fragment_user) {
@@ -43,6 +44,12 @@ class UserFragment: Fragment(R.layout.fragment_user) {
             .load(currentuser?.photoUrl)
             .circleCrop()
             .into(userPhoto)
+
+        btnNewAccount.setOnClickListener{
+            startActivity(Intent(getContext(), SingUpActivity::class.java))
+            getActivity()?.finish()
+        }
+
 
         btnLogout2.setOnClickListener {
             startActivity(Intent(getContext(), LoginActivity::class.java))
