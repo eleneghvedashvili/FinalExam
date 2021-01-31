@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "136457961298",
+    "firebase_url": "https://finalexam-49512-default-rtdb.firebaseio.com",
+    "project_id": "finalexam-49512",
+    "storage_bucket": "finalexam-49512.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136457961298:android:d91d14ab9cbcdd712d848b",
+        "android_client_info": {
+          "package_name": "com.example.finalexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136457961298-ptlkr541k59mn8uaan9ov11g5cd3mqfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_wYoMGswSBdvrn7gVPuCIbvNp4fB_q44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136457961298-ptlkr541k59mn8uaan9ov11g5cd3mqfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136457961298:android:211ac6822b6ab5192d848b",
+        "android_client_info": {
+          "package_name": "com.example.finalexam01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136457961298-ptlkr541k59mn8uaan9ov11g5cd3mqfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_wYoMGswSBdvrn7gVPuCIbvNp4fB_q44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136457961298-ptlkr541k59mn8uaan9ov11g5cd3mqfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136457961298:android:887e15a04628ed272d848b",
+        "android_client_info": {
+          "package_name": "com.example.finalexam1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136457961298-ptlkr541k59mn8uaan9ov11g5cd3mqfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_wYoMGswSBdvrn7gVPuCIbvNp4fB_q44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136457961298-ptlkr541k59mn8uaan9ov11g5cd3mqfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
