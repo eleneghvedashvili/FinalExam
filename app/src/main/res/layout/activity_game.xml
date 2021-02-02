@@ -15,18 +15,19 @@
         android:gravity="center">
 
         <TextView
+            android:id="@+id/tv_question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
+            android:text="What subject does this person teach us?"
             android:textColor="@color/blue"
-            android:textSize="22dp"
-            android:text="What subject does this person teach us?" />
+            android:textSize="22dp" />
 
         <ImageView
             android:id="@+id/iv_image"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="269dp"
             android:layout_marginTop="16dp"
             android:src="@drawable/batoninikolozi">
 
@@ -68,10 +69,85 @@
             android:background="@drawable/default_option_border_bg"
             android:layout_margin="10dp"
             android:layout_gravity="center"
+            android:textAlignment="center"
             android:padding="15dp"
             android:textColor="@color/blue"
             android:textSize="18dp"
             android:text="nikolozi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_option_two"
+            android:textAlignment="center"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            android:text="nikolozi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_option_three"
+            android:textAlignment="center"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            android:text="nikolozi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_option_four"
+            android:textAlignment="center"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            android:text="nikolozi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_option_five"
+            android:textAlignment="center"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            android:text="nikolozi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_option_six"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            android:text="nikolozi"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/blue"
+            android:text="SUBMIT"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+
+
 
 
     </LinearLayout>

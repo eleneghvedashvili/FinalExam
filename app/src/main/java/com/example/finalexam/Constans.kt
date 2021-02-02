@@ -41,14 +41,14 @@ object Constans {
         val question3 = Questions(
                 3,
                 "What subject does this person teach us?",
-                R.drawable.xatiashvili,
+                R.drawable.batonirevazi,
                 "Introduction to Entrepreneurship",
                 "Calculus",
                 "Mobile applications",
                 "Basics of Computer Networking",
                 "Python",
                 "Principles of digital technology",
-                1
+                2
         )
         questionList.add(question3)
 
@@ -56,7 +56,7 @@ object Constans {
         val question4 = Questions(
                 4,
                 "What subject does this person teach us?",
-                R.drawable.xatiashvili,
+                R.drawable.malxazi,
                 "Introduction to Entrepreneurship",
                 "Calculus",
                 "Mobile applications",
@@ -71,14 +71,14 @@ object Constans {
         val question5 = Questions(
                 5,
                 "What subject does this person teach us?",
-                R.drawable.xatiashvili,
+                R.drawable.qalbatonigvanca,
                 "Introduction to Entrepreneurship",
                 "Calculus",
                 "Mobile applications",
                 "Basics of Computer Networking",
                 "Python",
                 "Principles of digital technology",
-                1
+                5
         )
         questionList.add(question5)
 
@@ -86,7 +86,7 @@ object Constans {
         val question6 = Questions(
                 6,
                 "What subject does this person teach us?",
-                R.drawable.xatiashvili,
+                R.drawable.batonigamdlishvili,
                 "Introduction to Entrepreneurship",
                 "Calculus",
                 "Mobile applications",

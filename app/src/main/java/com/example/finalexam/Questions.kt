@@ -6,7 +6,7 @@ data class Questions (
     val image: Int,
     val optionOne: String,
     val optionTwo: String,
-    val optionTree: String,
+    val optionThree: String,
     val optionFour: String,
     val optionFive: String,
     val optionSix: String,
