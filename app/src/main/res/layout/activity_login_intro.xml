@@ -14,6 +14,7 @@
         style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:text="Hello, welcome To Quize App.Have Fun!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +27,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Welcome To BTU Quiz Master"
+        android:text="Welcome To LITTLE BTU Quiz Master"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/txtLoginSubHeader"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

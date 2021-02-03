@@ -15,7 +15,6 @@ import com.google.firebase.auth.FirebaseAuth
 
 class UserFragment: Fragment(R.layout.fragment_user) {
 
-    private lateinit var userPhoto: ImageView
     private lateinit var txtName: TextView
     private lateinit var txtEmail: TextView
     private lateinit var idUser: TextView
@@ -29,7 +28,6 @@ class UserFragment: Fragment(R.layout.fragment_user) {
 
         val currentuser = mAuth.currentUser
 
-        userPhoto = view.findViewById(R.id.userPhoto)
         txtName= view.findViewById(R.id.txtName)
         txtEmail = view.findViewById(R.id.txtEmail)
         idUser = view.findViewById(R.id.idUser)
@@ -40,10 +38,6 @@ class UserFragment: Fragment(R.layout.fragment_user) {
         txtEmail.text = currentuser?.email
         idUser.text = currentuser?.displayName
 
-        Glide.with(this)
-            .load(currentuser?.photoUrl)
-            .circleCrop()
-            .into(userPhoto)
 
         btnNewAccount.setOnClickListener{
             startActivity(Intent(getContext(), SingUpActivity::class.java))

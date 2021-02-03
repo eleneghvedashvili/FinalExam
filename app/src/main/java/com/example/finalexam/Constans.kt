@@ -67,7 +67,7 @@ object Constans {
                 "Basics of Computer Networking",
                 "Python",
                 "Principles of digital technology",
-                1
+                6
         )
         questionList.add(question4)
 
@@ -97,7 +97,7 @@ object Constans {
                 "Basics of Computer Networking",
                 "Python",
                 "Principles of digital technology",
-                1
+                4
         )
         questionList.add(question6)
 
