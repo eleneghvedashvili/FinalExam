@@ -66,7 +66,7 @@ class Game : AppCompatActivity(), View.OnClickListener {
     private fun setQuestion() {
 
         val question = mQuestionsList!![mCurrentPosition - 1]
-        defaultOptionsView()
+
 
         if (mCurrentPosition == mQuestionsList!!.size) {
             btn_submit.text = "FINISH"
@@ -74,6 +74,7 @@ class Game : AppCompatActivity(), View.OnClickListener {
             btn_submit.text = "SUBMIT"
         }
 
+        defaultOptionsView()
 
         progressBar.progress = mCurrentPosition
         tv_progress.text = "$mCurrentPosition" + "/" + progressBar.max
