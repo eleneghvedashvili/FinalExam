@@ -3,6 +3,7 @@ package com.example.finalexam
 object Constans {
 
     const val TOTAL_QUESTIONS:String = "total_questions"
+    const val CORRECT_ANSWERS: String = "correct_answers"
 
 
     fun getQuestion (): ArrayList<Questions>{

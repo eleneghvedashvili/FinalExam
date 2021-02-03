@@ -47,6 +47,7 @@
         android:layout_height="wrap_content"
         android:text="Your score is 5 out of 6"
         android:textSize="25dp"
+        android:textColor="@color/design_default_color_secondary_variant"
         app:layout_constraintBottom_toTopOf="@+id/btn_Finish"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
