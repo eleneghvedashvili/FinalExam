@@ -2,6 +2,9 @@ package com.example.finalexam
 
 object Constans {
 
+    const val TOTAL_QUESTIONS:String = "total_questions"
+
+
     fun getQuestion (): ArrayList<Questions>{
 
         val questionList = ArrayList<Questions>()
